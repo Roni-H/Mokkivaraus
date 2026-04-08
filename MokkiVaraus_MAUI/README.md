@@ -1,6 +1,6 @@
 # Mökkien varausjärjestelmä – .NET 8 MAUI
 
-Valmis Windows-keskeinen .NET MAUI -pohja Villa­ge Newbies Oy:n varausjärjestelmälle.
+Villa­ge Newbies Oy:n varausjärjestelmä
 
 ## Sisältö
 - alueiden hallinta
@@ -19,14 +19,6 @@ Valmis Windows-keskeinen .NET MAUI -pohja Villa­ge Newbies Oy:n varausjärjeste
 - SQLite
 - MVVM
 - Shell-navigointi
-- omat Windows platform -tiedostot, jotta `MauiWinUIApplication.CreateMauiApp()` on kunnossa
+- omat Windows platform -tiedostot, `MauiWinUIApplication.CreateMauiApp()`
 
-## Ajo Visual Studio 2022:ssa
-1. Avaa `MokkiVaraus_MAUI.csproj`
-2. Palauta NuGetit
-3. Valitse käynnistyskohteeksi **Windows Machine**
-4. Build → Rebuild
-5. Run
-
-## Huomio
-Tämä on toimiva lähtöprojekti, jossa on valmiina perus-CRUD, raportointi, laskutus ja varauksen päällekkäisyystarkistus.
+Toimiva lähtöprojekti, jossa on valmiina perus-CRUD, raportointi, laskutus ja varauksen päällekkäisyystarkistus.
