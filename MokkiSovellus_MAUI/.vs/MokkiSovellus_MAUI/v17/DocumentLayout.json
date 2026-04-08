@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\m\u00F6kkivaraus\\mokkisovellus_maui\\models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|solutionrelative:models\\area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\m\u00F6kkivaraus\\mokkisovellus_maui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\m\u00F6kkivaraus\\mokkisovellus_maui\\data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|solutionrelative:data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\m\u00F6kkivaraus\\mokkisovellus_maui\\views\\areapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5929E00F-3E98-4F01-809C-6340181C8D31}|MokkiSovellus_MAUI.csproj|solutionrelative:views\\areapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Area.cs",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Models\\Area.cs",
-              "RelativeDocumentMoniker": "Models\\Area.cs",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Models\\Area.cs",
-              "RelativeToolTip": "Models\\Area.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T13:08:59.66Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "AreaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Views\\AreaPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AreaPage.xaml",
+              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Views\\AreaPage.xaml",
+              "RelativeToolTip": "Views\\AreaPage.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-08T15:02:00.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Data\\AppDatabase.cs",
-              "RelativeDocumentMoniker": "Data\\AppDatabase.cs",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\Data\\AppDatabase.cs",
-              "RelativeToolTip": "Data\\AppDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\M\u00F6kkivaraus\\MokkiSovellus_MAUI\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T13:07:49.17Z",
+              "WhenOpened": "2026-04-08T14:59:20.975Z",
               "EditorCaption": ""
             }
           ]
