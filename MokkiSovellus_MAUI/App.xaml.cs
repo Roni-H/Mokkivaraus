@@ -1,15 +1,16 @@
-﻿namespace MokkiSovellus_MAUI
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-        }
+﻿using MokkiSovellus_MAUI.Views;
+using static System.Net.Mime.MediaTypeNames;
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+namespace MokkiSovellus_MAUI;
+
+public partial class App : Application
+{
+    public static IServiceProvider Services { get; private set; } = null!;
+
+    public App(IServiceProvider serviceProvider)
+    {
+        InitializeComponent();
+        Services = serviceProvider;
+        MainPage = serviceProvider.GetRequiredService<AppShell>();
     }
 }
