@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.BookingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Varaukset"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Varausten hallinta" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Tee varaukset, lisää palvelut ja luo laskut yhdestä näkymästä." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Uusi varaus" FontAttributes="Bold" FontSize="18" />
+                    <Picker ItemsSource="{Binding Cottages}" SelectedItem="{Binding SelectedCottage}" ItemDisplayBinding="{Binding Name}" Title="Valitse mökki" />
+                    <Picker ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" ItemDisplayBinding="{Binding FullName}" Title="Valitse asiakas" />
+                    <DatePicker Date="{Binding StartDate}" />
+                    <DatePicker Date="{Binding EndDate}" />
+                    <Picker ItemsSource="{Binding Services}" SelectedItem="{Binding SelectedService}" ItemDisplayBinding="{Binding Name}" Title="Lisäpalvelu (valinnainen)" />
+                    <Entry Text="{Binding QuantityText}" Placeholder="Palvelun määrä" Keyboard="Numeric" />
+                    <Picker Title="Varaustila" SelectedIndex="{Binding SelectedStatus}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Tentative</x:String>
+                                <x:String>Confirmed</x:String>
+                                <x:String>Cancelled</x:String>
+                                <x:String>Completed</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Picker Title="Laskun toimitus" SelectedIndex="{Binding SelectedDeliveryMethod}">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Paper</x:String>
+                                <x:String>Email</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Editor Text="{Binding Notes}" Placeholder="Muistiinpanot" AutoSize="TextChanges" HeightRequest="90" />
+                    <HorizontalStackLayout Spacing="10">
+                        <Button Text="Tyhjennä" Command="{Binding ClearCommand}" BackgroundColor="{StaticResource SecondaryColor}" />
+                        <Button Text="Tallenna varaus" Command="{Binding SaveCommand}" />
+                        <Button Text="Lisää palvelu" Command="{Binding AddServiceCommand}" BackgroundColor="{StaticResource SecondaryColor}" />
+                        <Button Text="Luo lasku" Command="{Binding CreateInvoiceCommand}" BackgroundColor="{StaticResource PrimaryColor}" />
+                        <Button Text="Poista" Command="{Binding DeleteCommand}" BackgroundColor="{StaticResource DangerColor}" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Varaukset" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding Bookings}" SelectedItem="{Binding SelectedBookingRow}" SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding CottageName}" FontAttributes="Bold" />
+                                        <Label Text="{Binding CustomerName}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding StartDate, StringFormat='Aika {0:dd.MM.yyyy}'}" FontSize="12" />
+                                        <Label Text="{Binding Status}" FontSize="12" TextColor="{StaticResource SecondaryColor}" />
+                                        <Label Text="{Binding TotalAmount, StringFormat='Arvio {0:F2} €'}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Valitun varauksen palvelut" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding SelectedBookingServices}" SelectionMode="None">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="8" ColumnDefinitions="*,Auto">
+                                    <Label Text="{Binding ExtraServiceId}" />
+                                    <Label Grid.Column="1" Text="{Binding Quantity, StringFormat='x{0}'}" TextColor="{StaticResource SecondaryColor}" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

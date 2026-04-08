@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.CustomersPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Asiakkaat"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Asiakashallinta" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Asiakkaiden tiedot varaus- ja laskutusprosessia varten." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Asiakkaan tiedot" FontAttributes="Bold" FontSize="18" />
+                    <Entry Text="{Binding FirstName}" Placeholder="Etunimi" />
+                    <Entry Text="{Binding LastName}" Placeholder="Sukunimi" />
+                    <Entry Text="{Binding Email}" Placeholder="Sähköposti" Keyboard="Email" />
+                    <Entry Text="{Binding Phone}" Placeholder="Puhelin" Keyboard="Telephone" />
+                    <Entry Text="{Binding Address}" Placeholder="Osoite / paikkakunta" />
+                    <HorizontalStackLayout Spacing="10">
+                        <Button Text="Uusi" Command="{Binding NewCommand}" BackgroundColor="{StaticResource SecondaryColor}" />
+                        <Button Text="Tallenna" Command="{Binding SaveCommand}" />
+                        <Button Text="Poista" Command="{Binding DeleteCommand}" BackgroundColor="{StaticResource DangerColor}" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Asiakkaat" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding FullName}" FontAttributes="Bold" />
+                                        <Label Text="{Binding Email}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding PhoneNumber}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.InvoicesPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Laskut"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Laskujen hallinta" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Näe avoimet laskut, maksetut laskut ja erääntyneet maksut." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Avoimet laskut" FontAttributes="Bold" FontSize="18" />
+                        <Label Text="{Binding OpenInvoices.Count}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame Grid.Column="1">
+                    <VerticalStackLayout>
+                        <Label Text="Erääntyneet" FontAttributes="Bold" FontSize="18" />
+                        <Label Text="{Binding OverdueInvoices.Count}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource DangerColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Valittu lasku" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding Invoices}" SelectedItem="{Binding SelectedInvoice}" SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding InvoiceNumber}" FontAttributes="Bold" />
+                                        <Label Text="{Binding Amount, StringFormat='{}{0:F2} €'}" TextColor="{StaticResource SecondaryColor}" />
+                                        <Label Text="{Binding DueDate, StringFormat='Eräpäivä {0:dd.MM.yyyy}'}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding DeliveryMethod}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding IsPaid, StringFormat='Maksettu: {0}'}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    <Button Text="Merkitse maksetuksi" Command="{Binding MarkPaidCommand}" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

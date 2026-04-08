@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="MokkiVaraus_MAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MokkiVaraus_MAUI.Views"
+    FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent Title="Etusivu" ContentTemplate="{DataTemplate views:DashboardPage}" />
+        <ShellContent Title="Alueet" ContentTemplate="{DataTemplate views:AreasPage}" />
+        <ShellContent Title="Mökit" ContentTemplate="{DataTemplate views:CottagesPage}" />
+        <ShellContent Title="Asiakkaat" ContentTemplate="{DataTemplate views:CustomersPage}" />
+        <ShellContent Title="Varaukset" ContentTemplate="{DataTemplate views:BookingsPage}" />
+        <ShellContent Title="Laskut" ContentTemplate="{DataTemplate views:InvoicesPage}" />
+        <ShellContent Title="Raportit" ContentTemplate="{DataTemplate views:ReportsPage}" />
+    </TabBar>
+</Shell>

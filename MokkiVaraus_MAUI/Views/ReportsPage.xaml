@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.ReportsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Raportit"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Raportointi" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Majoittumiset ja ostetut palvelut aikavälillä sekä valitulla alueella." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Rajaukset" FontAttributes="Bold" FontSize="18" />
+                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Alue" />
+                    <DatePicker Date="{Binding FromDate}" />
+                    <DatePicker Date="{Binding ToDate}" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Hae raportit" Command="{Binding RefreshCommand}" />
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Majoittumiset" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding AccommodationRows}" SelectionMode="None">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding CottageName}" FontAttributes="Bold" />
+                                        <Label Text="{Binding CustomerName}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding StartDate, StringFormat='{}{0:dd.MM.yyyy} – '}" FontSize="12" />
+                                        <Label Text="{Binding TotalAmount, StringFormat='Arvio {0:F2} €'}" FontSize="12" TextColor="{StaticResource SecondaryColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Palvelut" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding ServiceRows}" SelectionMode="None">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding ServiceName}" FontAttributes="Bold" />
+                                        <Label Text="{Binding AreaName}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                        <Label Text="{Binding Quantity, StringFormat='Määrä {0}'}" FontSize="12" />
+                                        <Label Text="{Binding Revenue, StringFormat='Liikevaihto {0:F2} €'}" FontSize="12" TextColor="{StaticResource SecondaryColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

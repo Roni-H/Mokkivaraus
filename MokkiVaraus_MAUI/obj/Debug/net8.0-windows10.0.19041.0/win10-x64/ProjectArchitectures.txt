@@ -1,0 +1,1 @@
+C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\MokkiVaraus_MAUI.csproj;x64
