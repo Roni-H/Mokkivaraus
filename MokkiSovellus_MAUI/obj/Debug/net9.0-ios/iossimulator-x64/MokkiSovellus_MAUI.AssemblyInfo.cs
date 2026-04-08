@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MokkiSovellus_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+baaf435b43d61896e3fa67fc5bbe2e24b557c725")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6bce2a9aa16e6d5a2c4f9d026d04af6a018dd04d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MokkiSovellus_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MokkiSovellus_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
