@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MokkiVaraus_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0757c197b3acf3ce8af8b2f9da5853ba3b2ef73d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76e62834d64b6980b7259bf4b48b6e48f6c3494")]
 [assembly: System.Reflection.AssemblyProductAttribute("MokkiVaraus_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MokkiVaraus_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

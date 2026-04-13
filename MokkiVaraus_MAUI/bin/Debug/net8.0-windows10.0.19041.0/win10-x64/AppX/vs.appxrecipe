@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-04-08T16:38:03.071</Modified>
+      <Modified>2026-04-13T10:39:51.073</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -40,15 +40,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MokkiVaraus_MAUI.runtimeconfig.json">
       <PackagePath>MokkiVaraus_MAUI.runtimeconfig.json</PackagePath>
-      <Modified>2026-04-08T16:38:02.901</Modified>
+      <Modified>2026-04-13T10:39:50.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MokkiVaraus_MAUI.dll">
       <PackagePath>MokkiVaraus_MAUI.dll</PackagePath>
-      <Modified>2026-04-08T16:38:02.371</Modified>
+      <Modified>2026-04-13T10:39:49.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MokkiVaraus_MAUI.exe</PackagePath>
-      <Modified>2026-04-08T16:38:02.375</Modified>
+      <Modified>2026-04-13T10:39:49.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -70,193 +70,193 @@
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2026-04-08T16:38:00.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.548</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2026-04-08T16:38:01.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2026-04-08T16:38:01.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2026-04-08T16:38:01.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2026-04-08T16:38:01.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.550</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.550</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.550</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.551</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.551</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.551</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.551</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.552</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.552</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.552</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.552</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.554</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.554</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.554</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.554</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.555</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.555</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.555</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.555</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.556</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.556</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.556</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2026-04-08T16:38:01.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2026-04-08T16:38:01.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.557</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.557</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.557</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.557</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2026-04-08T16:38:01.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2026-04-08T16:38:01.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2026-04-08T16:38:01.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.558</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.559</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.559</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.559</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.559</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.560</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2026-04-08T16:38:01.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2026-04-08T16:38:01.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2026-04-08T16:38:01.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2026-04-08T16:38:01.561</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2026-04-08T16:38:01.561</Modified>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2026-04-08T16:38:01.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MokkiVaraus_MAUI.deps.json">
       <PackagePath>MokkiVaraus_MAUI.deps.json</PackagePath>
-      <Modified>2026-04-08T16:38:02.898</Modified>
+      <Modified>2026-04-13T10:39:50.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
