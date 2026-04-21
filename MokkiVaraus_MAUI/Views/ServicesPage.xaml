@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.ServicesPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Palvelut"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Palveluiden hallinta" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Majoituksen yhteydessä varattavat lisäpalvelut." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Palvelun tiedot" FontAttributes="Bold" FontSize="18" />
+                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Valitse alue" />
+                    <Entry Text="{Binding Name}" Placeholder="Palvelun nimi" />
+                    <Entry Text="{Binding Description}" Placeholder="Kuvaus" />
+                    <Entry Text="{Binding PriceText}" Placeholder="Hinta" Keyboard="Numeric" />
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Aktiivinen" VerticalTextAlignment="Center" />
+                        <Switch IsToggled="{Binding IsActive}" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Button Text="Uusi" Command="{Binding NewCommand}" BackgroundColor="{StaticResource SecondaryColor}" />
+                        <Button Text="Tallenna" Command="{Binding SaveCommand}" />
+                        <Button Text="Poista" Command="{Binding DeleteCommand}" BackgroundColor="{StaticResource DangerColor}" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Palvelut" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding Services}" SelectedItem="{Binding SelectedService}" SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" />
+                                        <Label Text="{Binding Price, StringFormat='{}{0:F2} €'}" TextColor="{StaticResource SecondaryColor}" />
+                                        <Label Text="{Binding Description}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

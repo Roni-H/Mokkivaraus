@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.AreasPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Alueet"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Alueiden hallinta" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="Lisää, muokkaa ja poista toiminta-alueita." FontSize="13" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Alueen tiedot" FontAttributes="Bold" FontSize="18" />
+                    <Entry Text="{Binding Name}" Placeholder="Alueen nimi" />
+                    <Entry Text="{Binding Description}" Placeholder="Kuvaus" />
+                    <HorizontalStackLayout Spacing="10">
+                        <Button Text="Uusi" Command="{Binding NewCommand}" BackgroundColor="{StaticResource SecondaryColor}" />
+                        <Button Text="Tallenna" Command="{Binding SaveCommand}" />
+                        <Button Text="Poista" Command="{Binding DeleteCommand}" BackgroundColor="{StaticResource DangerColor}" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Alueet" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="12" Margin="0,0,0,10">
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" />
+                                        <Label Text="{Binding Description}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

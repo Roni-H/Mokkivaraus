@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MokkiVaraus_MAUI.Views.DashboardPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Etusivu"
+    BackgroundColor="{StaticResource SurfaceColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Grid ColumnDefinitions="*,Auto">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="Village Newbies Oy" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource TextColor}" />
+                    <Label Text="Mökkien varausjärjestelmän hallintanäkymä" FontSize="14" TextColor="{StaticResource MutedTextColor}" />
+                </VerticalStackLayout>
+
+                <Button Grid.Column="1" Text="Päivitä" Command="{Binding RefreshCommand}" />
+            </Grid>
+
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" ColumnSpacing="12" RowSpacing="12">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Label Text="Alueet" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                        <Label Text="{Binding AreaCount}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame Grid.Column="1">
+                    <VerticalStackLayout>
+                        <Label Text="Mökit" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                        <Label Text="{Binding CottageCount}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame Grid.Row="1">
+                    <VerticalStackLayout>
+                        <Label Text="Varaukset" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                        <Label Text="{Binding BookingCount}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource PrimaryColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame Grid.Row="1" Grid.Column="1">
+                    <VerticalStackLayout>
+                        <Label Text="Erääntyneet laskut" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                        <Label Text="{Binding OverdueInvoiceCount}" FontSize="30" FontAttributes="Bold" TextColor="{StaticResource DangerColor}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Lähipäivien varaukset" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding UpcomingBookings}" SelectionMode="None">
+                        <CollectionView.EmptyView>
+                            <Label Text="Ei varauksia näkyvissä." TextColor="{StaticResource MutedTextColor}" />
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="8" ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                                    <Label Text="{Binding CottageName}" FontAttributes="Bold" />
+                                    <Label Grid.Column="1" Text="{Binding Status}" TextColor="{StaticResource SecondaryColor}" />
+                                    <Label Grid.Row="1" Text="{Binding CustomerName}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding StartDate, StringFormat='{0:dd.MM.yyyy}'}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Avoimet laskut" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding OpenInvoices}" SelectionMode="None">
+                        <CollectionView.EmptyView>
+                            <Label Text="Ei avoimia laskuja." TextColor="{StaticResource MutedTextColor}" />
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="8" ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                                    <Label Text="{Binding InvoiceNumber}" FontAttributes="Bold" />
+                                    <Label Grid.Column="1" Text="{Binding Amount, StringFormat='{}{0:F2} €'}" TextColor="{StaticResource SecondaryColor}" />
+                                    <Label Grid.Row="1" Text="{Binding DueDate, StringFormat='Eräpäivä {0:dd.MM.yyyy}'}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding DeliveryMethod}" FontSize="12" TextColor="{StaticResource MutedTextColor}" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame>
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Kysytyimmät palvelut" FontAttributes="Bold" FontSize="18" />
+                    <CollectionView ItemsSource="{Binding TopServices}" SelectionMode="None">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="8" ColumnDefinitions="*,Auto">
+                                    <Label Text="{Binding ServiceName}" />
+                                    <Label Grid.Column="1" Text="{Binding Quantity, StringFormat='x{0}'}" TextColor="{StaticResource SecondaryColor}" />
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
