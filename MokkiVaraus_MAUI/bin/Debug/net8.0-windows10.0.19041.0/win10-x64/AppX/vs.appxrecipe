@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-04-13T10:39:51.073</Modified>
+      <Modified>2026-04-13T10:44:48.124</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MokkiVaraus_MAUI.dll">
       <PackagePath>MokkiVaraus_MAUI.dll</PackagePath>
-      <Modified>2026-04-13T10:39:49.927</Modified>
+      <Modified>2026-04-13T10:44:46.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MokkiVaraus_MAUI.exe</PackagePath>
-      <Modified>2026-04-13T10:39:49.930</Modified>
+      <Modified>2026-04-13T10:44:46.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
