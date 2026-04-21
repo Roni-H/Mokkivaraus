@@ -1,0 +1,4 @@
+C:\Users\username\AppData\Local\Packages\com.villagenewbies.mokkireservations_hmj2cpc8wy1cc\LocalState
+
+
+VSCODE plugin: SQLite3 Editor

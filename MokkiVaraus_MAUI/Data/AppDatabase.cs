@@ -371,4 +371,65 @@ public sealed class AppDatabase
         if (overlap)
             throw new InvalidOperationException("Tälle mökille on jo päällekkäinen varaus valitulla ajalla.");
     }
+
+    // ---- Helpers for locating and manipulating the DB file and running raw SQL ----
+
+    /// <summary>
+    /// Returns the full path to the app database file on the device.
+    /// Copy/paste this path into File Explorer, Terminal, or use platform tools to pull it.
+    /// </summary>
+    public string GetDatabaseFilePath()
+    {
+        return Path.Combine(FileSystem.AppDataDirectory, "mokki_varausjärjestelmä.db3");
+    }
+
+    /// <summary>
+    /// Execute a raw non-query SQL statement (INSERT/UPDATE/DELETE/DDL).
+    /// Returns affected row count when supported.
+    /// </summary>
+    public async Task<int> ExecuteNonQueryAsync(string sql, params object[] args)
+    {
+        await InitializeAsync();
+        return await Db.ExecuteAsync(sql, args);
+    }
+
+    /// <summary>
+    /// Execute an external SQL script (multiple statements separated by ';').
+    /// This runs inside a transaction.
+    /// </summary>
+    public async Task ExecuteSqlScriptAsync(string sqlScript)
+    {
+        await InitializeAsync();
+
+        var statements = sqlScript
+            .Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(s => s.Trim())
+            .Where(s => !string.IsNullOrWhiteSpace(s))
+            .ToArray();
+
+        await Db.RunInTransactionAsync(conn =>
+        {
+            foreach (var stmt in statements)
+            {
+                // conn is synchronous SQLiteConnection (sqlite-net)
+                conn.Execute(stmt);
+            }
+        });
+    }
+
+    /// <summary>
+    /// Copy the database file to a destination path accessible from your machine.
+    /// Note: destination must be writable by the app; on Android you may prefer to copy to external cache or use the Android Device File Explorer.
+    /// </summary>
+    public Task ExportDatabaseAsync(string destinationFullPath, bool overwrite = true)
+    {
+        var source = GetDatabaseFilePath();
+        if (!File.Exists(source))
+            throw new FileNotFoundException("Database file not found.", source);
+
+        File.Copy(source, destinationFullPath, overwrite);
+        return Task.CompletedTask;
+    }
+
+
 }
