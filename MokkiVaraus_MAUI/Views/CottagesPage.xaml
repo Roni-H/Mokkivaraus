@@ -20,7 +20,7 @@
             <Frame>
                 <VerticalStackLayout Spacing="10">
                     <Label Text="Haku ja suodatus" FontAttributes="Bold" FontSize="18" />
-                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding FilterArea}" ItemDisplayBinding="{Binding Name}" Title="Alue" />
+                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding FilterArea}" ItemDisplayBinding="{Binding Name}" Title="Alue" HeightRequest="75" />
                     <Entry Text="{Binding FilterPriceText}" Placeholder="Enimmäishinta / yö" Keyboard="Numeric" />
                     <Entry Text="{Binding FilterEquipment}" Placeholder="Varusteet esim. sauna wifi" />
                     <DatePicker Date="{Binding AvailableFrom}" />
@@ -32,7 +32,7 @@
             <Frame>
                 <VerticalStackLayout Spacing="10">
                     <Label Text="Mökin tiedot" FontAttributes="Bold" FontSize="18" />
-                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Valitse alue" />
+                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Valitse alue" HeightRequest="75" />
                     <Entry Text="{Binding Name}" Placeholder="Mökin nimi" />
                     <Entry Text="{Binding Description}" Placeholder="Kuvaus" />
                     <Entry Text="{Binding CapacityText}" Placeholder="Henkilömäärä" Keyboard="Numeric" />

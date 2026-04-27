@@ -1,21 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\",
+  "WorkspaceRootPath": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\mokkivaraus\\mokkivaraus_maui\\data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\mokkivaraus\\mokkivaraus_maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\mokkivaraus_maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:mokkivaraus_maui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\mokkivaraus\\mokkivaraus_maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\views\\bookingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:views\\bookingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\viewmodels\\bookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:viewmodels\\bookingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\views\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:views\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\roni\\documents\\ohjelmistotuotanto\\mokkivaraus\\mokkivaraus_maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|c:\\users\\jami\\documents\\github\\mokkivaraus\\mokkivaraus_maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E819D4D6-5AC2-4E30-853C-B4E9CDCD8D03}|MokkiVaraus_MAUI.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,59 +46,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Views\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Views\\ReportsPage.xaml",
+              "RelativeToolTip": "Views\\ReportsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T09:21:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\ViewModels\\BookingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BookingsViewModel.cs",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\ViewModels\\BookingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BookingsViewModel.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAwwO8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:02:34.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T08:57:41.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T08:57:26.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Views\\BookingsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\BookingsPage.xaml",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Views\\BookingsPage.xaml",
+              "RelativeToolTip": "Views\\BookingsPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAACrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T08:51:55.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MokkiVaraus_MAUI.csproj",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\MokkiVaraus_MAUI.csproj",
+              "RelativeDocumentMoniker": "MokkiVaraus_MAUI.csproj",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\MokkiVaraus_MAUI.csproj",
+              "RelativeToolTip": "MokkiVaraus_MAUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T08:08:13.707Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AppDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\Data\\AppDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Data\\AppDatabase.cs",
               "RelativeDocumentMoniker": "Data\\AppDatabase.cs",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\Data\\AppDatabase.cs",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\Data\\AppDatabase.cs",
               "RelativeToolTip": "Data\\AppDatabase.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwLQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAApwMgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T08:12:00.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T08:07:32.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-13T10:39:44.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T10:39:44.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Roni\\Documents\\Ohjelmistotuotanto\\Mokkivaraus\\MokkiVaraus_MAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Jami\\Documents\\GitHub\\Mokkivaraus\\MokkiVaraus_MAUI\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:39:27.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T10:39:27.67Z"
             }
           ]
         }

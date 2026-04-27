@@ -20,7 +20,7 @@
             <Frame>
                 <VerticalStackLayout Spacing="10">
                     <Label Text="Rajaukset" FontAttributes="Bold" FontSize="18" />
-                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Alue" />
+                    <Picker ItemsSource="{Binding Areas}" SelectedItem="{Binding SelectedArea}" ItemDisplayBinding="{Binding Name}" Title="Alue" HeightRequest="75"/>
                     <DatePicker Date="{Binding FromDate}" />
                     <DatePicker Date="{Binding ToDate}" />
                 </VerticalStackLayout>

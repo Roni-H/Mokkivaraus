@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MokkiVaraus_MAUI
-build_property.ProjectDir = C:\Users\Roni\Documents\Ohjelmistotuotanto\Mokkivaraus\MokkiVaraus_MAUI\
+build_property.ProjectDir = C:\Users\Jami\Documents\GitHub\Mokkivaraus\MokkiVaraus_MAUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,79 +22,79 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/App.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/AppShell.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/MainPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Resources/Styles/Colors.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Resources/Styles/Styles.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/AreasPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/AreasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.AreasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AreasPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AreasPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/BookingsPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/BookingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.BookingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\BookingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\BookingsPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/CottagesPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/CottagesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.CottagesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CottagesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CottagesPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/CustomersPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/CustomersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.CustomersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CustomersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CustomersPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/DashboardPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/DashboardPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.DashboardPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DashboardPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DashboardPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/InvoicesPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/InvoicesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.InvoicesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\InvoicesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\InvoicesPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/ReportsPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/ReportsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.ReportsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ReportsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ReportsPage.xaml
 
-[C:/Users/Roni/Documents/Ohjelmistotuotanto/Mokkivaraus/MokkiVaraus_MAUI/Views/ServicesPage.xaml]
+[C:/Users/Jami/Documents/GitHub/Mokkivaraus/MokkiVaraus_MAUI/Views/ServicesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MokkiVaraus_MAUI.Views.ServicesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ServicesPage.xaml

@@ -59,7 +59,9 @@ public sealed class BookingsViewModel : ObservableObject
         {
             if (SetProperty(ref _selectedBookingRow, value))
             {
-                _ = LoadSelectedBookingServicesAsync();
+                if (value != null){
+                    _ = LoadSelectedBookingServicesAsync();
+                }
                 DeleteCommand.RaiseCanExecuteChanged();
                 AddServiceCommand.RaiseCanExecuteChanged();
                 CreateInvoiceCommand.RaiseCanExecuteChanged();
@@ -227,11 +229,13 @@ public sealed class BookingsViewModel : ObservableObject
     private async Task LoadSelectedBookingServicesAsync()
     {
         SelectedBookingServices.Clear();
-        if (SelectedBookingRow is null)
-            return;
 
-        foreach (var row in (await _database.GetBookingExtraServicesAsync())
-                     .Where(x => x.BookingId == SelectedBookingRow.BookingId))
+        var selected=SelectedBookingRow;
+        if(selected==null)
+            return;
+        var services=await _database.GetBookingExtraServicesAsync();
+        foreach (var row in services
+                     .Where(x=>x.BookingId==selected.BookingId))
         {
             SelectedBookingServices.Add(row);
         }

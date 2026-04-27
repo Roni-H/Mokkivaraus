@@ -20,13 +20,13 @@
             <Frame>
                 <VerticalStackLayout Spacing="10">
                     <Label Text="Uusi varaus" FontAttributes="Bold" FontSize="18" />
-                    <Picker ItemsSource="{Binding Cottages}" SelectedItem="{Binding SelectedCottage}" ItemDisplayBinding="{Binding Name}" Title="Valitse mökki" />
-                    <Picker ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" ItemDisplayBinding="{Binding FullName}" Title="Valitse asiakas" />
+                    <Picker ItemsSource="{Binding Cottages}" SelectedItem="{Binding SelectedCottage}" ItemDisplayBinding="{Binding Name}" Title="Valitse mökki" HeightRequest="75" />
+                    <Picker ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" ItemDisplayBinding="{Binding FullName}" Title="Valitse asiakas" HeightRequest="75" />
                     <DatePicker Date="{Binding StartDate}" />
                     <DatePicker Date="{Binding EndDate}" />
-                    <Picker ItemsSource="{Binding Services}" SelectedItem="{Binding SelectedService}" ItemDisplayBinding="{Binding Name}" Title="Lisäpalvelu (valinnainen)" />
+                    <Picker ItemsSource="{Binding Services}" SelectedItem="{Binding SelectedService}" ItemDisplayBinding="{Binding Name}" Title="Lisäpalvelu (valinnainen)" HeightRequest="75" />
                     <Entry Text="{Binding QuantityText}" Placeholder="Palvelun määrä" Keyboard="Numeric" />
-                    <Picker Title="Varaustila" SelectedIndex="{Binding SelectedStatus}">
+                    <Picker Title="Varaustila" SelectedIndex="{Binding SelectedStatus}" HeightRequest="75">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Tentative</x:String>
@@ -36,7 +36,7 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    <Picker Title="Laskun toimitus" SelectedIndex="{Binding SelectedDeliveryMethod}">
+                    <Picker Title="Laskun toimitus" SelectedIndex="{Binding SelectedDeliveryMethod}" HeightRequest="75">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Paper</x:String>
